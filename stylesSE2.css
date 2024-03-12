@@ -5,11 +5,19 @@ body {
 h1 {
     color: #489414;
     font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
     color: #489414;
     font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -18,10 +26,22 @@ p {
     font-size: 25px;
 }
 
+p2 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
 .boxwhite {
     border-radius: 25px;
     width: 100%;
-    padding: 5px, 5px;
+    padding: 5px, 5px, 5px, 5px;
     background-color: #ffffff;
 	text-align: center;
+}
+
+.boxgreen {
+    border-radius: 25px;
+    padding: 5px, 5px, 5px, 5px;
+    background-color: #489414;
+    text-align: left;
 }
