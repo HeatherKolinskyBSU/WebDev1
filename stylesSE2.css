@@ -12,6 +12,12 @@ h2 {
     font-size: 80px;
 }
 
+p {
+    padding: 5px;
+    text-align: left;
+    font-size: 25px;
+}
+
 .boxwhite {
     border-radius: 25px;
     width: 100%;
