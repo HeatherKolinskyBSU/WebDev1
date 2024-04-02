@@ -1,7 +1,9 @@
+/* Changes background colour for the entire page */
 body {
     background-color: #de78c8;
 }
 
+/* Centers a container on the screen. */
 .center {
     display: block;
     margin-left: auto;
@@ -9,23 +11,30 @@ body {
     width: 50%;
 }
 
+/* Pushes a container to the right of the screen. */
 .right {
     display: block;
     margin-left: auto;
     width: 5%;
 }
 
+/* Pushes a container to the left of the screen. */
 .left {
     display: block;
     margin-right: auto;
     width: 5%;
 }
 
+/* All code relating to the navigation bar was pulled from an old college assignment. */
+/* Currently thanking my past self for deciding to include this. */
+
+/* Creates a bar which sits invisible against the background. */
 .topnav {
     overflow: hidden;
     background-color: #de78c8;
 }
 
+/* Sets out text styling and spacing. */
 .topnav a {
     float: left;
     display: block;
@@ -36,15 +45,18 @@ body {
     text-decoration: none;
 }
 
+/* Darkens a specific topnav cell when the user hovers over it. */
 .topnav a:hover {
     background-color: #a90e87;
     color: white;
 }
 
+/* Small amount of image padding. */
 .block {
     padding: 1%;
 }
 
+/* Sets out text styling for image descriptions. */
 .text {
     float: right;
     font-size: 25px;
