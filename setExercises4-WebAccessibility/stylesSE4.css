@@ -8,3 +8,35 @@ body {
     margin-right: auto;
     width: 50%;
 }
+
+.right {
+    display: block;
+    margin-left: auto;
+    width: 5%;
+}
+
+.left {
+    display: block;
+    margin-right: auto;
+    width: 5%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #de78c8;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #a90e87;
+    color: white;
+}
