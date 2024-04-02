@@ -1,36 +1,43 @@
+/* Sets our default background colour */
 body {
     background-color: #e0dcdc;
 }
 
+/* Sets the text colour, size and font for h1 */
 h1 {
     color: #489414;
     font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Sets the text colour, size and font for h2 */
 h2 {
     color: #489414;
     font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Sets the text colour, size and font for h3 */
 h3 {
     color: #ffffff;
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Sets the padding, font and text alignment for p */
 p {
     padding: 5px;
     text-align: left;
     font-size: 25px;
 }
 
+/* Sets the padding, font and text alignment for p2 */
 p2 {
     color: #ffffff;
     font-size: 25px;
 } 
 
+/* Class used to create a white box with the specified style */
 .boxwhite {
     border-radius: 25px;
     width: 100%;
@@ -39,6 +46,7 @@ p2 {
 	text-align: center;
 }
 
+/* Class used to create a green box with the specified style */
 .boxgreen {
     border-radius: 25px;
     padding: 5px, 5px, 5px, 5px;
