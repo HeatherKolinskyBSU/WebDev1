@@ -46,6 +46,10 @@ body {
 }
 
 .text {
+    float: right;
     font-size: 25px;
     color: white;
+    background-color: #a90e87;
+    padding: 14px 16px;
+    text-decoration: none;
 }
