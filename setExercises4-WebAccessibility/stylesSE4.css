@@ -40,3 +40,7 @@ body {
     background-color: #a90e87;
     color: white;
 }
+
+.block {
+    padding: 1%;
+}
